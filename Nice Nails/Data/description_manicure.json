@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "name" : "Маникюр + Покрытие гель-лаком",
+        "price" : "35 BYN",
+        "image": "manicure-1"
+    },
+    {
+        "id" : 2,
+        "name" : "Пудровый Маникюр",
+        "price" : "45 BYN",
+        "image": "manicure-2"
+    },
+    {
+        "id" : 3,
+        "name" : "Японский маникюр",
+        "price" : "30 BYN",
+        "image": "manicure-3"
+    },
+    {
+        "id" : 4,
+        "name" : "Педикюр + Покрытие гель-лаком",
+        "price" : "35 BYN",
+        "image": "manicure-4"
+    }
+]

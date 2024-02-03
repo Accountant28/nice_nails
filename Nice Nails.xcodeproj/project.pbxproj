@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0446467B2B65006500C3288F /* DesignsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446467A2B65006500C3288F /* DesignsListView.swift */; };
+		0446467D2B6504BB00C3288F /* designs_manicure.json in Resources */ = {isa = PBXBuildFile; fileRef = 0446467C2B6504BB00C3288F /* designs_manicure.json */; };
+		0446467F2B6504E200C3288F /* DesignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446467E2B6504E200C3288F /* DesignModel.swift */; };
+		044646812B6515AA00C3288F /* main_photo.json in Resources */ = {isa = PBXBuildFile; fileRef = 044646802B6515AA00C3288F /* main_photo.json */; };
+		044646832B6515BE00C3288F /* MainPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044646822B6515BE00C3288F /* MainPhotoModel.swift */; };
+		044646852B6515F500C3288F /* MaintPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044646842B6515F500C3288F /* MaintPhotoView.swift */; };
+		044646892B65465B00C3288F /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044646882B65465B00C3288F /* LogoView.swift */; };
+		04892BD42B62904400BEAD69 /* Nice_NailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04892BD32B62904400BEAD69 /* Nice_NailsApp.swift */; };
+		04892BD62B62904400BEAD69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04892BD52B62904400BEAD69 /* ContentView.swift */; };
+		04892BD82B62904500BEAD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04892BD72B62904500BEAD69 /* Assets.xcassets */; };
+		04892BDB2B62904500BEAD69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04892BDA2B62904500BEAD69 /* Preview Assets.xcassets */; };
+		04892BE32B62949000BEAD69 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04892BE22B62949000BEAD69 /* MainView.swift */; };
+		04892BE52B62962C00BEAD69 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04892BE42B62962C00BEAD69 /* ServicesView.swift */; };
+		04892BE72B62964C00BEAD69 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04892BE62B62964C00BEAD69 /* BookingView.swift */; };
+		04892BE92B62966900BEAD69 /* MyBookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04892BE82B62966900BEAD69 /* MyBookingsView.swift */; };
+		04892BEB2B62967400BEAD69 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04892BEA2B62967400BEAD69 /* ProfileView.swift */; };
+		04973A6E2B6D448900DD6A64 /* ServiceListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04973A6D2B6D448900DD6A64 /* ServiceListItemView.swift */; };
+		04A060472B6978D100B258EE /* DesignesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A060462B6978D100B258EE /* DesignesView.swift */; };
+		04A060492B697EEC00B258EE /* DesignSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A060482B697EEB00B258EE /* DesignSheetView.swift */; };
+		04A136662B63FC8400403358 /* description_manicure.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A136652B63FC8400403358 /* description_manicure.json */; };
+		04A136692B63FCAC00403358 /* DescriptionManicureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A136682B63FCAC00403358 /* DescriptionManicureModel.swift */; };
+		04A1366C2B63FD7A00403358 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1366B2B63FD7A00403358 /* CodableBundleExtension.swift */; };
+		04A1366F2B63FF5C00403358 /* DescriptionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1366E2B63FF5C00403358 /* DescriptionListView.swift */; };
+		04CA54CF2B654D13001C9C25 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA54CE2B654D13001C9C25 /* NavigationBarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0446467A2B65006500C3288F /* DesignsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignsListView.swift; sourceTree = "<group>"; };
+		0446467C2B6504BB00C3288F /* designs_manicure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = designs_manicure.json; sourceTree = "<group>"; };
+		0446467E2B6504E200C3288F /* DesignModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignModel.swift; sourceTree = "<group>"; };
+		044646802B6515AA00C3288F /* main_photo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main_photo.json; sourceTree = "<group>"; };
+		044646822B6515BE00C3288F /* MainPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPhotoModel.swift; sourceTree = "<group>"; };
+		044646842B6515F500C3288F /* MaintPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintPhotoView.swift; sourceTree = "<group>"; };
+		044646872B65211600C3288F /* Nice-Nails-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Nice-Nails-Info.plist"; sourceTree = SOURCE_ROOT; };
+		044646882B65465B00C3288F /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		04892BD02B62904400BEAD69 /* Nice Nails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nice Nails.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04892BD32B62904400BEAD69 /* Nice_NailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nice_NailsApp.swift; sourceTree = "<group>"; };
+		04892BD52B62904400BEAD69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04892BD72B62904500BEAD69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04892BDA2B62904500BEAD69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04892BE22B62949000BEAD69 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		04892BE42B62962C00BEAD69 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		04892BE62B62964C00BEAD69 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		04892BE82B62966900BEAD69 /* MyBookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsView.swift; sourceTree = "<group>"; };
+		04892BEA2B62967400BEAD69 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		04973A6D2B6D448900DD6A64 /* ServiceListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListItemView.swift; sourceTree = "<group>"; };
+		04A060462B6978D100B258EE /* DesignesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignesView.swift; sourceTree = "<group>"; };
+		04A060482B697EEB00B258EE /* DesignSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSheetView.swift; sourceTree = "<group>"; };
+		04A136652B63FC8400403358 /* description_manicure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = description_manicure.json; sourceTree = "<group>"; };
+		04A136682B63FCAC00403358 /* DescriptionManicureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionManicureModel.swift; sourceTree = "<group>"; };
+		04A1366B2B63FD7A00403358 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		04A1366E2B63FF5C00403358 /* DescriptionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionListView.swift; sourceTree = "<group>"; };
+		04CA54CE2B654D13001C9C25 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04892BCD2B62904400BEAD69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04892BC72B62904400BEAD69 = {
+			isa = PBXGroup;
+			children = (
+				04892BD22B62904400BEAD69 /* Nice Nails */,
+				04892BD12B62904400BEAD69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04892BD12B62904400BEAD69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04892BD02B62904400BEAD69 /* Nice Nails.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04892BD22B62904400BEAD69 /* Nice Nails */ = {
+			isa = PBXGroup;
+			children = (
+				044646872B65211600C3288F /* Nice-Nails-Info.plist */,
+				04892BE12B6292F000BEAD69 /* App */,
+				04A1366D2B63FED000403358 /* View */,
+				04A136672B63FC9800403358 /* Model */,
+				04A1366A2B63FD6A00403358 /* Extension */,
+				04A136642B63FA9200403358 /* Data */,
+				04892BD72B62904500BEAD69 /* Assets.xcassets */,
+				04892BD92B62904500BEAD69 /* Preview Content */,
+			);
+			path = "Nice Nails";
+			sourceTree = "<group>";
+		};
+		04892BD92B62904500BEAD69 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04892BDA2B62904500BEAD69 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04892BE12B6292F000BEAD69 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04892BD32B62904400BEAD69 /* Nice_NailsApp.swift */,
+				04892BD52B62904400BEAD69 /* ContentView.swift */,
+				04892BE42B62962C00BEAD69 /* ServicesView.swift */,
+				04892BE62B62964C00BEAD69 /* BookingView.swift */,
+				04892BE82B62966900BEAD69 /* MyBookingsView.swift */,
+				04892BEA2B62967400BEAD69 /* ProfileView.swift */,
+				04A060462B6978D100B258EE /* DesignesView.swift */,
+				04892BE22B62949000BEAD69 /* MainView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04A136642B63FA9200403358 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0446467C2B6504BB00C3288F /* designs_manicure.json */,
+				04A136652B63FC8400403358 /* description_manicure.json */,
+				044646802B6515AA00C3288F /* main_photo.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		04A136672B63FC9800403358 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A136682B63FCAC00403358 /* DescriptionManicureModel.swift */,
+				0446467E2B6504E200C3288F /* DesignModel.swift */,
+				044646822B6515BE00C3288F /* MainPhotoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A1366A2B63FD6A00403358 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04A1366B2B63FD7A00403358 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		04A1366D2B63FED000403358 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A1366E2B63FF5C00403358 /* DescriptionListView.swift */,
+				0446467A2B65006500C3288F /* DesignsListView.swift */,
+				044646842B6515F500C3288F /* MaintPhotoView.swift */,
+				044646882B65465B00C3288F /* LogoView.swift */,
+				04CA54CE2B654D13001C9C25 /* NavigationBarView.swift */,
+				04A060482B697EEB00B258EE /* DesignSheetView.swift */,
+				04973A6D2B6D448900DD6A64 /* ServiceListItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04892BCF2B62904400BEAD69 /* Nice Nails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04892BDE2B62904500BEAD69 /* Build configuration list for PBXNativeTarget "Nice Nails" */;
+			buildPhases = (
+				04892BCC2B62904400BEAD69 /* Sources */,
+				04892BCD2B62904400BEAD69 /* Frameworks */,
+				04892BCE2B62904400BEAD69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nice Nails";
+			productName = "Nice Nails";
+			productReference = 04892BD02B62904400BEAD69 /* Nice Nails.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04892BC82B62904400BEAD69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					04892BCF2B62904400BEAD69 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 04892BCB2B62904400BEAD69 /* Build configuration list for PBXProject "Nice Nails" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04892BC72B62904400BEAD69;
+			productRefGroup = 04892BD12B62904400BEAD69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04892BCF2B62904400BEAD69 /* Nice Nails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04892BCE2B62904400BEAD69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A136662B63FC8400403358 /* description_manicure.json in Resources */,
+				0446467D2B6504BB00C3288F /* designs_manicure.json in Resources */,
+				04892BDB2B62904500BEAD69 /* Preview Assets.xcassets in Resources */,
+				04892BD82B62904500BEAD69 /* Assets.xcassets in Resources */,
+				044646812B6515AA00C3288F /* main_photo.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04892BCC2B62904400BEAD69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04892BE52B62962C00BEAD69 /* ServicesView.swift in Sources */,
+				04892BD62B62904400BEAD69 /* ContentView.swift in Sources */,
+				04CA54CF2B654D13001C9C25 /* NavigationBarView.swift in Sources */,
+				04A136692B63FCAC00403358 /* DescriptionManicureModel.swift in Sources */,
+				04892BE92B62966900BEAD69 /* MyBookingsView.swift in Sources */,
+				04892BE32B62949000BEAD69 /* MainView.swift in Sources */,
+				044646852B6515F500C3288F /* MaintPhotoView.swift in Sources */,
+				04A060472B6978D100B258EE /* DesignesView.swift in Sources */,
+				04892BD42B62904400BEAD69 /* Nice_NailsApp.swift in Sources */,
+				04892BEB2B62967400BEAD69 /* ProfileView.swift in Sources */,
+				044646832B6515BE00C3288F /* MainPhotoModel.swift in Sources */,
+				04973A6E2B6D448900DD6A64 /* ServiceListItemView.swift in Sources */,
+				0446467B2B65006500C3288F /* DesignsListView.swift in Sources */,
+				04A060492B697EEC00B258EE /* DesignSheetView.swift in Sources */,
+				044646892B65465B00C3288F /* LogoView.swift in Sources */,
+				04892BE72B62964C00BEAD69 /* BookingView.swift in Sources */,
+				04A1366C2B63FD7A00403358 /* CodableBundleExtension.swift in Sources */,
+				04A1366F2B63FF5C00403358 /* DescriptionListView.swift in Sources */,
+				0446467F2B6504E200C3288F /* DesignModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04892BDC2B62904500BEAD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04892BDD2B62904500BEAD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04892BDF2B62904500BEAD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nice Nails/Preview Content\"";
+				DEVELOPMENT_TEAM = RU789QML47;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nice-Nails-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.carsberg-28-yandex.Nice-Nails";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04892BE02B62904500BEAD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nice Nails/Preview Content\"";
+				DEVELOPMENT_TEAM = RU789QML47;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nice-Nails-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.carsberg-28-yandex.Nice-Nails";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04892BCB2B62904400BEAD69 /* Build configuration list for PBXProject "Nice Nails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04892BDC2B62904500BEAD69 /* Debug */,
+				04892BDD2B62904500BEAD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04892BDE2B62904500BEAD69 /* Build configuration list for PBXNativeTarget "Nice Nails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04892BDF2B62904500BEAD69 /* Debug */,
+				04892BE02B62904500BEAD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04892BC82B62904400BEAD69 /* Project object */;
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "name" : "Френч",
+        "price" : "20 BYN",
+        "image": "design-1"
+    },
+    {
+        "id" : 2,
+        "name" : "Втирка",
+        "price" : "15 BYN",
+        "image": "design-2"
+    },
+    {
+        "id" : 3,
+        "name" : "Свитер",
+        "price" : "10 BYN",
+        "image": "design-3"
+    },
+    {
+        "id" : 4,
+        "name" : "Кошачий глаз",
+        "price" : "10 BYN",
+        "image": "design-4"
+    }
+]
